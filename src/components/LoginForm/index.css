@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+.login-container {
+  background-color: #000;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card-container {
+  background-color: #272727;
+  border: 1px solid #272727;
+  border-radius: 10px;
+}
+
+.website-logo {
+  width: 65%;
+  padding: 30px;
+  margin-left: 45px;
+}
+
+.form-container {
+  margin: 20px;
+  padding: 10px;
+}
+
+.password-label {
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.user-label-name {
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.password-input-field {
+  background-color: transparent;
+  width: 280px;
+  height: 30px;
+  border: 1px solid #7e858e;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding: 7px;
+  color: #f1f5f9;
+}
+
+.user-input-field {
+  background-color: transparent;
+  padding: 7px;
+  width: 280px;
+  height: 30px;
+  border: 1px solid #7e858e;
+  border-radius: 3px;
+  margin-top: 10px;
+  color: #f1f5f9;
+}
+
+.password-card {
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #4f46e5;
+  border: 1px solid #4f46e5;
+  width: 280px;
+  height: 30px;
+  border-radius: 3px;
+  margin-top: 25px;
+  color: #fff;
+  padding: 5px;
+  font-weight: 500;
+}
+
+.error-message {
+  font-size: 15px;
+  color: red;
+  margin-top: 10px;
+}
+@media screen and (max-width: 576px) {
+  .website-logo {
+    width: 50%;
+    margin-left: 75px;
+  }
+  .login-container {
+    background-size: cover;
+    height: 100vh;
+  }
+}

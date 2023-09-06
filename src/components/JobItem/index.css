@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  font-family: 'roboto';
+}
+.link-item {
+  color: #fff;
+}
+.jobs-item-container {
+  background-color: #2f2f2f;
+  border: 1px solid #272727;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.first-part-container {
+  display: flex;
+  flex-direction: column;
+}
+.image-title-container {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+.company-name-and-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.company-rating-container {
+  display: flex;
+}
+.location-empType-package-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.location-and-empType-card {
+  display: flex;
+}
+.hr-line {
+  color: #fff;
+}
+.second-part-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.company-logo {
+  width: 100px;
+  padding: 15px;
+}
+.company-heading {
+  color: #fff;
+  font-weight: 500;
+  font-size: 23px;
+  margin-bottom: 5px;
+}
+.star-icon {
+  color: #fbbf24;
+  font-size: 23px;
+}
+.company-rating {
+  color: #fff;
+  margin-left: 5px;
+  font-size: 20px;
+}
+.location-icon {
+  color: #fff;
+  font-size: 25px;
+}
+.company-location {
+  font-size: 15px;
+  color: #f1f5f9;
+  margin-top: 5px;
+}
+.location-card {
+  display: flex;
+}
+.work-type {
+  display: flex;
+  margin-left: 25px;
+}
+.work-icon {
+  color: #fff;
+  font-size: 25px;
+}
+.company-empType {
+  margin-left: 8px;
+  font-size: 15px;
+  color: #f1f5f9;
+  margin-top: 5px;
+}
+.company-package {
+  font-size: 20px;
+  font-weight: 500;
+}
+.hr-line {
+  margin: 25px;
+}
+.description-heading {
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.description-para {
+  margin-bottom: 25px;
+  color: #f1f5f9;
+  line-height: 27px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .company-logo {
+    width: 80px;
+    padding: 20px;
+  }
+  .location-empType-package-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .description-para {
+    width: 100%;
+  }
+  .location-and-empType-card {
+    display: flex;
+  }
+  .work-type {
+    margin-left: 5px;
+  }
+  .company-location {
+    margin-left: 2px;
+  }
+}
